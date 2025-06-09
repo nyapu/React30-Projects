@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header> ID Card Generator</header>
+    <div class="container">
+        <div class="sub-container">
+            <form action="" onsubmit="return false">
+                <div class="form-element">
+                    <label for="name">Enter Name:</label>
+                    <input type="text" id="name">
+                </div>
+                <div class="form-element">
+                    <label for="collegename">Enter College Name:</label>
+                    <input type="text" id="collegename">
+                </div>
+                <div class="form-element">
+                    <label for="phone number">Enter mobile number:</label>
+                    <input type="text" id="phonenumber">
+                </div>
+                <div class="form-elment">
+                    <label for="location">Enter Location:</label>
+                    <input type="text" id="location">
+                </div>
+            </form>
+            <button onclick="formsubmit()">
+                Generate Card
+            </button>
+            <br><br><br>
+            <div class="sub-container">
+                <div class="id-card-container">
+                    <div class="text-content">Generated Card</div>
+                    <div class="card-element card-name">
+                        <span>Name:</span>
+                        <span id="cardname"></span>
+                    </div>
+                    <div class="card-elment college-name">
+                        <span>College Name:</span>
+                        <span id="collegenam"></span>
+                    </div>
+                    <div class="card-element phone-number">
+                        <span>Mobile number:</span>
+                        <span id="mobile"></span>
+                    </div>
+                <div class="card-element place">
+                    <span>Location:</span>
+                    <span id="placeinfo"></span>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="test.js"></script>
+</html>
