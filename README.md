@@ -1,4 +1,6 @@
-![image](https://github.com/user-attachments/assets/d7e6249a-e269-4792-8e90-2e136dbd71f7)# 🚀 React30 Projects Challenge
+![image](https://github.com/user-attachments/assets/8c8c3e7f-d9fc-44ef-a6f4-e0a216f9c727)
+
+# 🚀 React30 Projects Challenge
 
 Welcome to the **React30 Projects** series — a 30-project coding challenge where I build 30 hands-on frontend projects, starting with core JavaScript and moving into React.js and the MERN stack. This journey is designed to **solidify frontend skills** and **build a strong development portfolio**.
 
