@@ -23,7 +23,7 @@ React30 is a curated set of **16–30 frontend projects** created using **JavaSc
 | Project No. | Title                    | Tech Used        | Status |
 |-------------|--------------------------|------------------|--------|
 | 01          | ID Card Generator        | HTML, CSS, JS    | ✅ Done |
-| 02          | _Coming Soon..._         | React            | 🚧     |
+| 02          | Clicker App              | React            | ✅ Done   |
 | ...         | _More coming every day_  | MERN, Tailwind   | 🚧     |
 
 ---
@@ -41,9 +41,7 @@ React30/
 │ └── ... (coming soon)
 
 
-<<<<<<< HEAD
-=======
----
+
 
 
 >  A great refresher project before diving deep into React!
