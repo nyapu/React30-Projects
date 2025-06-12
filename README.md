@@ -53,7 +53,7 @@ React30/
 - Image upload & preview
 - Live data rendering
 
-> ✅ A great refresher project before diving deep into React!
+>  A great refresher project before diving deep into React!
 
 📸 **Feature Added**: Upload your photo and it appears on the generated ID card!
 
