@@ -41,6 +41,38 @@ React30/
 │ └── ... (coming soon)
 
 
+<<<<<<< HEAD
+=======
+---
+
+## 🌟 Project Highlight: ID Card Generator
+
+🧑‍🎓 A simple yet interactive **student ID card generator** built using **vanilla JavaScript** to practice:
+
+- DOM manipulation
+- Form handling
+- Template literals
+- Image upload & preview
+- Live data rendering
+
+>  A great refresher project before diving deep into React!
+
+📸 **Feature Added**: Upload your photo and it appears on the generated ID card!
+
+---
+
+## 🚀 How to Use
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/your-username/React30-Projects.git
+   cd React30-Projects
+2.Open any project folder, e.g.,
+Project-01-ID-Card-Generator/index.html in your browser.
+
+3.Play with the inputs, see the output live!
+
+>>>>>>> f9fffd886e22d9ae16ecb268c1e7061e4ac39abb
 🤝 Contribute
 If you have suggestions, want to improve styling, or want to add your version of a project, feel free to fork and PR. Let's grow together!
 🌈 License
