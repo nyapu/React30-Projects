@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/8c8c3e7f-d9fc-44ef-a6f4-e0a216f9c727)
+
 
 # 🚀 React30 Projects Challenge
 
