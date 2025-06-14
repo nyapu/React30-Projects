@@ -1,0 +1,73 @@
+/* Reset and base styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* black background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container for the app */
+.clock-wrapper {
+  text-align: center;
+}
+
+/* Clock title styling */
+.clock-title {
+  color: #00ff6a; /* bright green */
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  text-shadow: 0 0 10px #00ff6a;
+  letter-spacing: 1px;
+}
+
+/* Centering the clock */
+.clock-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Circular clock face with green glow */
+.clock-face {
+  width: 250px;
+  height: 250px;
+  border: 8px solid #00ff6a;
+  border-radius: 50%;
+  background-color: #111;
+  box-shadow: 0 0 30px #00ff6a, 0 0 10px #00ff6a inset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.clock-face:hover {
+  transform: scale(1.03);
+}
+
+/* Clock time text */
+.clock-time {
+  font-size: 2.5rem;
+  color: #ffffff;
+  text-shadow: 0 0 10px #00ff6a;
+}
+
+/* Responsive design */
+@media (max-width: 500px) {
+  .clock-face {
+    width: 180px;
+    height: 180px;
+  }
+
+  .clock-time {
+    font-size: 2rem;
+  }
+
+  .clock-title {
+    font-size: 1.5rem;
+  }
+}
