@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# 🕒 Digital Clock - React Project
+![image](https://github.com/user-attachments/assets/39f34f7e-b1d7-42a9-873d-5d5792e17737)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+This is **Project 3** of my **#React30 Challenge** – a **Digital Clock** built using React.  
+The clock updates every second using the `useEffect` and `useState` hooks.
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- Real-time clock that updates every second
+- Clean, modern UI with CSS styling
+- Functional React component structure
+- Responsive design
+- Glowing effect on the clock border
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📚 What I Learned
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React `useState` for managing dynamic values
+- React `useEffect` for running side effects like intervals
+- How to clean up side effects to avoid memory leaks
+- Styling and layout improvements using CSS
+- Real-time rendering using React
 
-### `npm test`
+## 🛠 Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React.js (CRA setup)
+- JavaScript (ES6+)
+- CSS3
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🎥 Resources
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This project was inspired by a **YouTube tutorial React js with Everyday Karma** where I followed the concepts and built my own version to strengthen my understanding of:
+- `useEffect` & cleanup functions
+- UI rendering in React
+- Component state and re-rendering
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚧 Future Improvements
 
-### `npm run eject`
+- Add date display
+- Dark/Light theme toggle
+- Add time zone selector
+- Add animation or sound
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📂 Project Setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To run this project locally:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/digital-clock-react.git
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Navigate into the project folder
+cd digital-clock-react
 
-## Learn More
+# Install dependencies
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Start the React app
+npm start
