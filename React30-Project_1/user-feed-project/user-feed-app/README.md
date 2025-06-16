@@ -2,6 +2,11 @@
 
 ![Screenshot from 2025-06-16 14-15-19](https://github.com/user-attachments/assets/2b89aaf9-526f-49ee-823d-1435fdf142cb)
 
+📜 Random Quote Generator
+
+![Screenshot from 2025-06-16 14-50-46](https://github.com/user-attachments/assets/700282b3-b86a-4234-8c0d-cc09ff0c2618)
+
+
 A simple and elegant user feed application built with React.js that fetches random user data and inspirational quotes using public APIs. This is part of my React30 Challenge — 30 small projects to master frontend development using React.
 📸 Features
 
