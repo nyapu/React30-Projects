@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+🧑‍🤝‍🧑 User Feed App — React30 Project 4
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Screenshot from 2025-06-16 14-15-19](https://github.com/user-attachments/assets/2b89aaf9-526f-49ee-823d-1435fdf142cb)
 
-## Available Scripts
+A simple and elegant user feed application built with React.js that fetches random user data and inspirational quotes using public APIs. This is part of my React30 Challenge — 30 small projects to master frontend development using React.
+📸 Features
 
-In the project directory, you can run:
+    🔁 Random User API integration – displays 50 random user profiles
 
-### `npm start`
+    📜 Random Quote Generator – fetches and displays fun/inspirational quotes
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    🎨 Styled with Bootstrap for responsive, clean UI
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    📜 Scrollable layout like a mini Facebook feed
 
-### `npm test`
+    ⚛️ Built using functional components and React hooks (useEffect, useState)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    🔄 Real-time API rendering with loading on component mount
 
-### `npm run build`
+🚀 Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    React.js
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    Axios
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    Bootstrap
 
-### `npm run eject`
+    Random User API → https://randomuser.me/api
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    Quote API → https://api.quotable.io/random
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🔧 How to Run Locally
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    Clone the repo:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+git clone https://github.com/your-username/user-feed-app.git
+cd user-feed-app
 
-## Learn More
+Install dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+yarn
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+or if you're using npm:
 
-### Code Splitting
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Start the development server:
 
-### Analyzing the Bundle Size
+yarn start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+or
 
-### Making a Progressive Web App
+    npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    Visit http://localhost:3000 in your browser.
 
-### Advanced Configuration
+📁 Folder Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+src/
+├── components/
+│   ├── Header.js
+│   └── UserList.js
+├── App.js
+├── index.js
+├── App.css
 
-### Deployment
+📚 What I Learned
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+    Making API calls using Axios in React
 
-### `npm run build` fails to minify
+    Using useEffect for side effects on component mount
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    Managing state with useState
+
+    Rendering dynamic lists using .map()
+
+    Cleaning up and structuring components
+
+    Combining multiple APIs into one interface
+
+
+
+💡 Inspiration
+
+This project was part of my #React30 journey, inspired by frontend learning resources on YouTube.
