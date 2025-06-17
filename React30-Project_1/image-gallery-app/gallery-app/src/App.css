@@ -1,0 +1,67 @@
+/* General App Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #1e1e1e, #2c2c2c);
+  color: #f1f1f1;
+}
+
+.App {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+/* Navbar/Header Styling */
+.navbar {
+  background: #111 !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.navbar .text-light {
+  font-size: 1.6rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  color: #f5f5f5;
+}
+
+.navbar .text-light::before {
+  content: "🖼️";
+  margin-right: 10px;
+}
+
+/* Image Grid Layout */
+.photos {
+  display: grid;
+  grid-gap: 20px;
+  padding: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  justify-content: center;
+}
+
+/* Image Card Styling */
+img {
+  width: 100%;
+  border-radius: 12px;
+  border: 2px solid #444;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 35px rgba(255, 255, 255, 0.1);
+  border-color: #00bcd4;
+  cursor: pointer;
+}
+
+/* Optional spinner or loader animation */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,18 +1,18 @@
 import React, { useEffect, useState } from "react";
 
 function App() {
-  const [quote, setQuote] = useState("");        // store quote
-  const [author, setAuthor] = useState("");      // store author
+  const [quote, setQuote] = useState("");      
+  const [author, setAuthor] = useState("");    
 
   useEffect(() => {
-    // Fetch a random quote from a public API
+    // public api bata random quote fetch garxa
     fetch("https://api.quotable.io/random")
       .then((res) => res.json())
       .then((data) => {
         setQuote(data.content);      // update quote state
         setAuthor(data.author);      // update author state
       });
-  }, []); // only runs once when component mounts
+  }, []); // note: only runs once when component mounts
 
   return (
     <div style={{ textAlign: "center", marginTop: "100px" }}>
