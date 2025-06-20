@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+ 🚀 Responsive Navbar with React Router
+![Screenshot from 2025-06-20 22-36-52](https://github.com/user-attachments/assets/28e45b74-5c6a-4a6c-8c81-7622d9892f0f)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is Project 6 of my **#React30 challenge*
+* — a responsive, multi-page portfolio website built using **React.js**, **React Router**, and **Bootstrap**.
 
-## Available Scripts
+It features a clean navigation bar and separate pages for Home, About, Blog, Contact, and Login — all structured to scale as a personal portfolio.
 
-In the project directory, you can run:
+## 📸 Preview
 
-### `npm start`
+![App Screenshot](./preview.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🌐 Live Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> Coming soon...
 
-### `npm test`
+## 🧠 What I Learned
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✅ Routing with `react-router-dom`  
+✅ Component-based layout with React  
+✅ Navigation bar using `reactstrap`  
+✅ Clean and responsive UI with Bootstrap  
+✅ Error/success alerts & basic form validation  
+✅ Folder structure and modular design  
+✅ Working on a real portfolio layout for future deployment
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📁 Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+src/
+├── components/
+│ ├── About.js
+│ ├── Blog.js
+│ ├── Contact.js
+│ ├── Home.js
+│ └── Login.js
+├── container/
+│ └── NavigationTab.js
+├── App.js
+├── index.js
+└── App.css
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📦 Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone https://github.com/your-username/navbar-react-portfolio.git
+cd navbar-react-portfolio
+npm install
+npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Make sure you have:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    react-router-dom
 
-## Learn More
+    bootstrap
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    reactstrap
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Install them with:
 
-### Code Splitting
+npm install react-router-dom bootstrap reactstrap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+📄 Pages
 
-### Analyzing the Bundle Size
+    Home – Welcome section and intro to portfolio
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    About – Short bio and tech stack
 
-### Making a Progressive Web App
+    Blog – Placeholder for future posts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    Contact – Contact form
 
-### Advanced Configuration
+    Login – Simple login form with alerts and social login buttons
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+🛠 Tech Stack
 
-### Deployment
+    React.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+    React Router
 
-### `npm run build` fails to minify
+    Bootstrap / Reactstrap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    JavaScript (ES6+)
+
+    HTML & CSS
+
+🚧 Upcoming Improvements
+
+    Add dark mode toggle
+
+    Make the blog page dynamic
+
+    Connect contact form to backend (e.g., EmailJS)
+
+    Add animations using Framer Motion
+
+👨‍💻 Author
+
+Sameer Nyapu
+Frontend Developer on a journey to master React & DevOps
+📫 LinkedIn • GitHub
+⭐️ Show Your Support
+
+If you like this project, give it a ⭐️ and consider following me on GitHub to see my React30 journey!
